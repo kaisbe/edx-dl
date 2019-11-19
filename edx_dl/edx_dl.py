@@ -93,7 +93,11 @@ OPENEDX_SITES = {
     'bits':{
         'url':'http://any-learn.bits-pilani.ac.in',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
-    }
+    },
+    'cognitive.ai': {
+        'url': 'https://courses.cognitiveclass.ai/',
+        'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
+    },
 }
 BASE_URL = OPENEDX_SITES['edx']['url']
 EDX_HOMEPAGE = BASE_URL + '/login_ajax'
