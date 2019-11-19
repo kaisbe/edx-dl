@@ -95,7 +95,7 @@ OPENEDX_SITES = {
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     },
     'cognitive.ai': {
-        'url': 'https://courses.cognitiveclass.ai/',
+        'url': 'https://courses.cognitiveclass.ai',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     },
 }
